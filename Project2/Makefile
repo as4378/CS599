@@ -1,4 +1,4 @@
-fig1.png:lasso.R
-	R -f lasso.R
+fig1.png: PELT.py
+	python PELT.py
 
 
