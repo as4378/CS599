@@ -62,7 +62,7 @@ if __name__ == "__main__":
     c2 = range(41, 61) # create 20 points with mean significantly greater than mean of c1
     data = [] # for storing simulated data
     
-    # create data so that change points are at 20, 40, 60, 80, 100
+    # create data so that change points are at 20, 40, 60, 80
     data.extend(c1)
     data.extend(c2)
     data.extend(c1)
