@@ -22,4 +22,4 @@ The details are in this file [File](https://github.com/as4378/CS599/blob/master/
 
 To redo the analysis you will need to clone this directory. After that in main.R in lines 7 and 8 if you are not using 64 bit version of python then download the 64 bit version of python and and uncomment and update the line use_python("path to 64 bit version of python"), otherwise leave this line commented.
 
-After this, typing make on terminal will run the program and the plot will be created in file fig1.png.
+After this, on terminal change to this directory and type make on command line. This will run the program and the plot will be created in file fig1.png.
