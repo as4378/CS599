@@ -1,4 +1,4 @@
-fig1.png: PELT.py
-	python PELT.py
+fig1.png: main.R
+	R -f main.R
 
 
