@@ -22,6 +22,10 @@ def cost_func(start, end, sums):
     return (-2 * mu * total) + (length * mu * mu)
 
 # implementation of pelt algorithm
+# data <- the data vector to be partitioned
+# penalty <- penalty for change point
+# K <- the constant that satisfies the inequality condition. If the cost function is minus the log-likelihood
+# which is true for square error loss then K = 0
 def pelt(data, penalty, K):
     sums = [0]
     F = [0 for i in range(len(data) + 1)]  # stores the optimal cost of partitioning for each time step
