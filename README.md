@@ -12,7 +12,7 @@ The details are in this file [File](https://github.com/as4378/CS599/blob/master/
 **Citation:** Toby Hocking, Guillem Rigaill, Paul Fearnhead et. al. On optimal multiple changepoint algorithms for large data Fig. 4
 
 
-**Dependencies**: A stable version of R and python3 must be installed both 64 bit. Additionally following libraries must be installed in R:
+**Dependencies**: A stable version of R(atleast 3.5.1) and python3 must be installed both 64 bit. Additionally following libraries must be installed in R:
 
 1. reticulate
 
